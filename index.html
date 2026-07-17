@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="scene">
+
+    <!-- ===================== ENVELOPE ===================== -->
+    <div class="envelope" id="envelope">
+      <div class="envelope-back"></div>
+
+
+      <div class="stamp" aria-hidden="true">
+        <div class="stamp-perf">
+          <div class="stamp-art">
+            <img src="assets/whatsapp-photo.jpeg" alt="" class="stamp-photo">
+          </div>
+        </div>
+      </div>
+
+      <div class="postmark" aria-hidden="true">
+        <svg viewBox="0 0 120 120">
+          <circle cx="60" cy="60" r="52" fill="none" stroke="currentColor" stroke-width="2" />
+          <circle cx="60" cy="60" r="44" fill="none" stroke="currentColor" stroke-width="1.5" />
+          <text x="60" y="40" text-anchor="middle" class="pm-text">WITH LOVE</text>
+          <text x="60" y="85" text-anchor="middle" class="pm-text pm-text-small">16 . VII . 1800s</text>
+        </svg>
+      </div>
+
+      <div class="envelope-address">
+        <p class="addr-line addr-to">To My Dearest</p>
+        <p class="addr-line addr-sub">Wherever this letter finds you</p>
+      </div>
+
+      <div class="envelope-front">
+        <div class="flap flap-top"></div>
+        <div class="flap flap-left"></div>
+        <div class="flap flap-right"></div>
+        <div class="flap flap-bottom"></div>
+        <div class="seal" id="seal">
+          <div class="seal-glow"></div>
+          <div class="wax">
+            <span class="wax-initial">&amp;</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="tap-hint">tap the seal to open</p>
+    </div>
+
+    <!-- ===================== LETTER ===================== -->
+    <div class="letter" id="letter">
+      <div class="paper">
+        <div class="paper-edge"></div>
+        <div class="letter-content">
+
+          <p class="letter-date">16th of July</p>
+
+          <!-- ======================================================= -->
+          <!--  LETTER TEXT — replace everything inside .letter-body   -->
+          <!--  with the words you want to send her.                   -->
+          <!-- ======================================================= -->
+          <div class="letter-body">
+            <p class="drop">hello my lovely girl raghodty/my WIFEEEEE</p>
+            <p>
+              Raghad , my love my soul and my soulmate and the best thing that ever happen to me in my life , My Wife
+              i will always love you , my angel , today you went to a wedding , you looked astonishing even though i
+              didn't see you ,
+              i know that whatever they do , the most beautiful woman in the world is still you , i love you so much
+              your call makes me feel special , it makes my day , everyday .
+
+              you talk with me is the best feeling raghad i feel so loved so special i fucking love you my lovely girl
+              i hope that we get married , and married soon , i never want anyone else in my life but you , you are the
+              only one
+              who makes me happy , you are the only one who makes me feel alive , i will always love you.
+              the butter flies , that feeling in my gut , oh god , never felt this before you my soul
+
+            </p>
+            <p>
+              love you , your husband inshallah , say amin babyyyyy.
+
+            </p>
+            <p>Yours, always and completely,</p>
+          </div>
+
+          <p class="letter-signature">— Abed</p>
+
+          <button class="play-again" id="playAgain" type="button">
+            <span class="note">&#9835;</span> play “Until I Found You” again
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <audio id="song" src="assets/R.mp3" preload="auto"></audio>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
